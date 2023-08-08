@@ -37,10 +37,10 @@ function init() {
 
         let shape;
         switch (shapeChoice) {
-            case 'Circle':
+            case 'circle':
                 shape = new Circle();
                 break;
-            case 'Square':
+            case 'square':
                 shape = new Square();
                 break;
             default:
@@ -48,13 +48,14 @@ function init() {
                 break;
         }
         shape.setColor(shapeColor);
-        console.log(shapeColor)
         
         const svg = new Svg();
         svg.setText(text, textColor);
-        svg.setShape(shapeChoice);
+
+        svg.setShape(shape);
+        svg.setText(text, textColor);
         
-        return fs.writeFile('./examples/logo.svg', svg.render(), (err) => {
+        fs.writeFile('./examples/logo.svg', svg.render(), (err) => {
             if (err) {
                 console.log('Oops!! something did not add up correctly');
             } else {
