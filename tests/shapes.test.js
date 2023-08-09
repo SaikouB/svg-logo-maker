@@ -17,7 +17,7 @@ describe('square', () => {
         const square = new Square();
         let color = 'yellow';
         square.color = color;
-        expect(square.render()).toEqual(`<rect x="30" y="30" height="100%" width="100%" fill="${color}" />`)
+        expect(square.render()).toEqual(`<rect x="20" y="20" height="100%" width="100%" fill="${color}" />`)
     });
 });
 
