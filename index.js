@@ -33,7 +33,7 @@ const questions = [{
 }];
 
 function init() {
-    inquirer.prompt(questions).then(({ text, textColor, shapeChoice, shapeColor }) => {
+    inquirer.prompt(questions).then(({ shapeColor, shapeChoice, textColor, text }) => {
 
         let shape;
         switch (shapeChoice) {
@@ -50,10 +50,9 @@ function init() {
         shape.setColor(shapeColor);
         
         const svg = new Svg();
-        svg.setText(text, textColor);
 
-        svg.setShape(shape);
         svg.setText(text, textColor);
+        svg.setShape(shape, shapeColor);
         
         fs.writeFile('./examples/logo.svg', svg.render(), (err) => {
             if (err) {
