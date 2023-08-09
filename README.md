@@ -1,14 +1,13 @@
 # SVG Logo Generator
+![Static Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 A Command line application that allows user to create a simple svg logo.
-
-![Static Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
   
   - [Description](#description)
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [Technologies](#technologies)
   - [Contributing](#contributing)
   - [Tests](#testing)
   - [License](#license)
@@ -18,8 +17,6 @@ A Command line application that allows user to create a simple svg logo.
 ## Description
 
 This command line application is created to allow users to generate an svg logo based on criteria that matches their prompted selections to include: the shape, shape color, text, and text color of their logo. Typically, web developers would have to find another source for logo creation such as hiring a graphic web designer to fulfill their clients needs. This cli allows web developers to bypass this step and simply generate a logo for their clients on their own and hopefully save some of their hard earned money.
-
-<iframe src="https://drive.google.com/file/d/1Kox5lgRd0gsCe_5IgrRj_dvOnNoYAoPU/preview" width="640" height="480"></iframe>
 
 ## Installation
 
@@ -31,7 +28,7 @@ This command line application is created to allow users to generate an svg logo 
 - Finally user will type node index.js to run the command line app(svg-logo-maker) to enerate their own logo.
 
 
-## Technologies Used
+## Technologies
 
 - Node.js
 - node package manager(npm)
