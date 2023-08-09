@@ -20,7 +20,6 @@ This command line application is created to allow users to generate an svg logo 
 
 ![Untitled_ Aug 9, 2023 3_44 PM](https://github.com/SaikouB/svg-logo-maker/assets/132960605/ff467e5f-84b8-41f3-879c-a27d35806166)
 
-
 ## Installation
 
 - To begin, a user will need VS Code for code editing and to be able to install other necessary software. https://code.visualstudio.com/ .
