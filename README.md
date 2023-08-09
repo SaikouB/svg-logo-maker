@@ -18,6 +18,8 @@ A Command line application that allows user to create a simple svg logo.
 
 This command line application is created to allow users to generate an svg logo based on criteria that matches their prompted selections to include: the shape, shape color, text, and text color of their logo. Typically, web developers would have to find another source for logo creation such as hiring a graphic web designer to fulfill their clients needs. This cli allows web developers to bypass this step and simply generate a logo for their clients on their own and hopefully save some of their hard earned money.
 
+![Untitled_ Aug 9, 2023 3_44 PM](https://github.com/SaikouB/svg-logo-maker/assets/132960605/ff467e5f-84b8-41f3-879c-a27d35806166)
+
 ## Installation
 
 - To begin, a user will need VS Code for code editing and to be able to install other necessary software. https://code.visualstudio.com/ .
