@@ -19,7 +19,7 @@ A Command line application that allows user to create a simple svg logo.
 
 This command line application is created to allow users to generate an svg logo based on criteria that matches their prompted selections to include: the shape, shape color, text, and text color of their logo. Typically, web developers would have to find another source for logo creation such as hiring a graphic web designer to fulfill their clients needs. This cli allows web developers to bypass this step and simply generate a logo for their clients on their own and hopefully save some of their hard earned money.
 
-
+<iframe src="https://drive.google.com/file/d/1Kox5lgRd0gsCe_5IgrRj_dvOnNoYAoPU/preview" width="640" height="480"></iframe>
 
 ## Installation
 
@@ -45,7 +45,7 @@ This repository is open for developers to contribute. Please feel free to create
 ## Testing
 
 This command line app requires three tests to run in the shapes.test.js file to make sure that the correct shape is being generated.
-Simply type: npm run test to initiate a response from jest that the determines the correct shape is indeed being generated.
+Simply type: npm run test to initiate a response from jest that determines the correct shape is indeed being generated.
 
 ## License
 
